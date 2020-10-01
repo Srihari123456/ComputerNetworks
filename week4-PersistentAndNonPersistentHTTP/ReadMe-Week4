@@ -1,0 +1,2 @@
+Inorder to open the objects don't forget to place few text files in an "Object" directory 
+Check line45 in server.c of non-persistent http
