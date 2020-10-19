@@ -79,7 +79,7 @@ int main(){
                 }
                 from_client[temp] = '\0';
                 printf("\nRequest From Client:\n%s\n", from_client);
-                fp = fopen("proxyserverfile.txt", "r");
+                fp = fopen("proxyserver.txt", "r");
                 flag = false;
                 bzero(send_server, 1024);
                 bzero(from_server, 512);
