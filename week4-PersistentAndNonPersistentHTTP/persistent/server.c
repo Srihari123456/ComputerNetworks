@@ -51,7 +51,7 @@ int request_handler(int connfd)
 	
 			FILE *fd;
 	
-			char filename[MAX]="../Objects/";
+			char filename[MAX]="";
 			char message[MAX], content[MAX]="";
 		
 			strcat(content, "REQUEST TIME: ");
