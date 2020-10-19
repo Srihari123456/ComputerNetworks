@@ -134,7 +134,7 @@ int main(){
                                         }
                                         strcat(url_token, "?");
                                         strcat(url_token, modified_date);
-                                        fedit = fopen("proxyserverfile.txt", "r");
+                                        fedit = fopen("proxyserver.txt", "r");
                                         ftemp = fopen("replace.tmp", "w");
                                         int count = 0;
                                         while (fgets(file_edit_buff, 512, fedit) != NULL){
@@ -147,7 +147,7 @@ int main(){
                                         }
                                         fclose(fedit);
                                         fclose(ftemp);
-                                        rename("replace.tmp", "proxyserverfile.txt");
+                                        rename("replace.tmp", "proxyserver.txt");
                                         i++;
                                         index = 0;
                                         for (; from_server[i] != '\0'; i++){
